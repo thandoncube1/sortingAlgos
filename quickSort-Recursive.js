@@ -1,5 +1,5 @@
 let array = [12, 43, 64, 2, 5, 8, 16, 128, 19, 10, 3, 1, 25];
-
+// Array that we use to sort.
 function quickSort(arr) {
     if (!arr || arr.length <= 1) return arr; // If the array is empty, return an empty array
     let pivot = arr[0]; // Set the pivot point of the array
