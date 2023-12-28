@@ -8,8 +8,11 @@ function mergeSort(array) {
     // Split Array in into right and left
     const length = array.length;
     const middle = Math.floor(length / 2);
+    // Break the array into two parts - middle pointer (Element in the middle).
     const left = array.slice(0, middle);
+    // Left - 0 to Middle
     const right = array.slice(middle);
+    // Right - middle pointer to the end.
     // console.log('left: ', left);
     // console.log('right: ', right);
 
